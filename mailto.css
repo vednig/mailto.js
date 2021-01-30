@@ -14,3 +14,7 @@
 .no-underline{
     text-decoration: none;
 }
+.no-underline:link{
+        text-decoration: none;
+
+    }
