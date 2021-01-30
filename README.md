@@ -9,7 +9,7 @@
   
   ```html
 <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/vednig/mailto.js/mailto.css'>
-<script src='https://cdn.jsdelivr.net/gh/vednig/mailto.js/mailto.min.js'></script>
+<script defer src='https://cdn.jsdelivr.net/gh/vednig/mailto.js/mailto.min.js'></script>
   ```
   and people can easily connect with you. 📧😃
   
