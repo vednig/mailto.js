@@ -3,7 +3,7 @@
   Mailto.js helps you communicate better.<BR />
 ## About  
   Mailto.js aims to fix the broken mailto: links without additional changes 😃<br />
-## Howto
+## How-to
   <br />
   Just add these tags to your page
   
@@ -13,3 +13,10 @@
   ```
   and people can easily connect with you. 📧😃
   
+## Support
+Mailto.js currently supports <br />
+<ul>
+  <li>Outlook</li>
+  <li>Gmail</li>
+  <li>Yahoo</li>
+</ul>
