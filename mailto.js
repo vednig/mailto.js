@@ -11,7 +11,7 @@ for (let index = 0; index < linklst.length; index++) {
         showhtml="<br/><a href='https://mail.google.com/mail/?view=cm&fs=1&to="+email+"' >Gmail</a><br /><a href='https://outlook.live.com/owa/#to="+email+"&path=%2fmail%2faction%2fcompose'>Outlook</a><br><a href='http://compose.mail.yahoo.com/?to="+email+"'>Yahoo</a><br/><sup>By <a href='https://github.com/vednig/mailto.js'>Mailto.js</sup>";
         x=document.createElement('div')
         x.setAttribute('id','pophover-div')
-        x.setAttribute('class','bg-dark rnd card')
+        x.setAttribute('class','mailto-bg-dark mailto-rnd mailto-card')
         x.setAttribute('hidden',true)
         //x.setAttribute('style','position: absolute;  z-index: 1;width:fit-content;position: relative; left: 0;min-width: 200px ;border: 1px #808080 solid ;padding: 8px ;background-color: #cfc ;z-index: 1 ;')
         x.innerText=showtext;
