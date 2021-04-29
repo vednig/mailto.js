@@ -9,7 +9,7 @@ for (let index = 0; index < linklst.length; index++) {
         console.log(element);
         showtext='Choose one:';
         showhtml="<br/><a href='https://mail.google.com/mail/?view=cm&fs=1&to="+email+"' >Gmail</a><br /><a href='https://outlook.live.com/owa/#to="+email+"&path=%2fmail%2faction%2fcompose'>Outlook</a><br><a href='http://compose.mail.yahoo.com/?to="+email+"'>Yahoo</a><br/><sup>By <a href='https://github.com/vednig/mailto.js'>Mailto.js</sup>";
-        x=document.createElement('div')
+        x=document.createElement('span')
         x.setAttribute('id','pophover-div')
         x.setAttribute('class','mt-bg-dark mt-rnd mt-card')
         x.setAttribute('hidden',true)
