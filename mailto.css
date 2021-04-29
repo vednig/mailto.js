@@ -18,3 +18,12 @@
         text-decoration: none;
 
     }
+.box{
+position: absolute;
+width:fit-content;
+position: relative;
+min-width: 200px ;
+border: 1px #808080 solid ;
+padding: 8px ;
+z-index: 1 ;
+}
