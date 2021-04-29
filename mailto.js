@@ -19,15 +19,18 @@ for (let index = 0; index < linklst.length; index++) {
         html=element.innerHTML
         element.innerHTML=x.outerHTML+'<br>'+html
     element.addEventListener('mouseover',function(){
+        mousestate=1;
         document.getElementById('pophover-div').removeAttribute('hidden')
-       /* setTimeout(() => {
-            document.getElementById('pophover-div').setAttribute('hidden',true) 
-            
-        }, 3000);*/
+        setTimeout(() => {
+            if(mousestate==0){
+            document.getElementById('pophover-div').setAttribute('hidden',true)
+            }
+        }, 3000);
     })
     element.addEventListener('mouseleave',function(){
+        mousestate=0;
         //document.getElementById('pophover-div').removeAttribute('hidden')
-            document.getElementById('pophover-div').setAttribute('hidden',true) 
+            //document.getElementById('pophover-div').setAttribute('hidden',true) 
     })
     }    
 }
