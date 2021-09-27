@@ -20,3 +20,5 @@ Mailto.js currently supports <br />
   <li>Gmail</li>
   <li>Yahoo</li>
 </ul>
+
+Connect Directly From Your Browser And Never Ever Drop A Conversation.
