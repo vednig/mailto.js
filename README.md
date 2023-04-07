@@ -20,5 +20,5 @@ Mailto.js currently supports <br />
   <li>Gmail</li>
   <li>Yahoo</li>
 </ul>
-*Support for Prototon Mail is a Work In Progress (WIP)
+*Support for Prototon Mail is a Work In Progress (WIP)<br>
 Connect Directly From Your Browser And Never Ever Drop A Conversation.
